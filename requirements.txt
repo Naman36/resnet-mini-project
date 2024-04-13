@@ -1,0 +1,8 @@
+torch
+numpy
+torchvision
+matplotlib
+Pillow
+tensorboard
+pyyaml
+torchsummary
