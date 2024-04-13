@@ -28,17 +28,10 @@ To install all the dependencies, execute: `pip install -r requirements.txt`
 # Training
 Training can be started with the following command
 ```
-python3 main.py  
+python3 main.py  --config config.yaml --resnet_architecture best_model
 ```
 To modify and test with new ResNet architectures, you can create a new configuration experiment in project1_model.py directly.
 
-# Reproduce the results 
-
-#### Train our best modified ResNet Architecture with: 
-We have set the above as our default inputs in `main.py` and hence the following will reproduce our results too:
-```
-python3 main.py 
-```
 # Testing
 To test the unseen data run the following command after loading you checkpoint in the best_model folder:
 ```
