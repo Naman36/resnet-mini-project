@@ -22,6 +22,7 @@ To install all the dependencies, execute: `pip install -r requirements.txt`
 - best_model : The best model event logs and checkpoint file
 - configs : configs for testing
 - predictions : The csv file with the predictions
+- CustomDataset.py : To Create a dataset with the unseen testing data
 - models/resnet.py : PyTorch description of ResNet model architecture (flexible to change/modify using config.yaml) 
 - main.py : code to train and test ResNet architectures 
 - config.yaml : contains the hyperparamters used for constructing and training a ResNet architecture 
