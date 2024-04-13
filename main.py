@@ -79,7 +79,7 @@ def test(epoch, config, savename):
 if __name__ == '__main__': 
 
     parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
-    parser.add_argument('--config', default='resnet_configs/config.yaml', type=str, help='path to config file for resnet architecture') 
+    parser.add_argument('--config', default='config.yaml', type=str, help='path to config file for resnet architecture') 
     parser.add_argument('--resnet_architecture', default='best_model', type=str, help='name of resnet architecture from config') 
 
     args = parser.parse_args()
