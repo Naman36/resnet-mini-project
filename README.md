@@ -16,15 +16,14 @@ To install all the dependencies, execute: `pip install -r requirements.txt`
 
 # Description of files/folders in the repository 
 - best_model : The best model event logs and checkpoint file
-- configs : configs for testing
 - predictions : The csv file with the predictions
 - CustomDataset.py : To Create a dataset with the unseen testing data
-- models/resnet.py : PyTorch description of ResNet model architecture (flexible to change/modify using config.yaml) 
 - main.py : code to train and test ResNet architectures 
 - config.yaml : contains the hyperparamters used for constructing and training a ResNet architecture 
-- project1_model.py : ResNet architecture used.
+- project1_model.py : ResNet architecture used (flexible to change/modify using config.yaml)
 - load_model.py : For loading the model from the checkpoint
-- testing.py : For testing the model on the competition dataset and generating the csv
+- test.py : For testing the model on the competition dataset and generating the csv
+- validation.ipynb : Notebook for validating the trained model's output predictions and accuracy (including plots)
 
 # Training
 Training can be started with the following command
