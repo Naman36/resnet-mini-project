@@ -1,12 +1,12 @@
 best_model:
   conv_kernel_sizes: [3, 3, 3] 
   num_blocks: [4, 4, 3] 
-  num_channels: 64 
+  num_channels: 66 
   shortcut_kernel_sizes: [1, 1, 1] 
   avg_pool_kernel_size: 8
   drop: 0 # proportion for dropout 
   squeeze_and_excitation: 1 # True=1, False=0 
-  max_epochs: 200
+  max_epochs: 250
   optim: "sgd" 
   lr_sched: "CosineAnnealingLR"
   momentum: 0.9
