@@ -3,6 +3,7 @@ numpy
 torchvision
 matplotlib
 Pillow
+tensorflow
 tensorboard
 pyyaml
 torchsummary
