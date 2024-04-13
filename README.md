@@ -52,6 +52,8 @@ python3 test.py
 ```
 The output will be saved as predicitions.csv in the predictions folder.
 
+# Validation
+Validation of the trained model's output predictions and accuracy can be seen in validation.ipynb.
 
 # Visualizing the logs
 TO VISUALIZE TFEVENTS LOGS:
