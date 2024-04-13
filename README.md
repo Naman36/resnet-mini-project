@@ -3,7 +3,7 @@
 
 **Summary:** We implemented a modified ResNet architecture which classifies CIFAR-10 images with high accuracy. Our implementation modifies the EfficientNet architecture, which makes use of compound dimension coefficients in order to effectively increase classification accuracy with convolutional network scaling. EfficientNet is also relatively lightweight, allowing us to efficiently classify images with under 5 million parameters.
 
-This repository has been inspired by [Efficient Resnets](https://github.com/Nikunj-Gupta/Efficient_ResNets)
+This repository is inspired by [Efficient Resnets](https://github.com/Nikunj-Gupta/Efficient_ResNets)
 
 # Introduction 
 ResNets (or Residual Networks) are one of the most commonly used models for image classification
