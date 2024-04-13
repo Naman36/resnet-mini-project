@@ -101,11 +101,15 @@ if __name__ == '__main__':
 
     # Data
     print('==> Preparing data..')
-    train_trans = [transforms.ToTensor()]
-    test_trans = [transforms.ToTensor()]
+    train_trans = []
+    test_trans = []
     if config["data_augmentation"]: 
-        train_trans.append(transforms.RandomCrop(32, padding=4)) 
+        train_trans.append(transforms.AutoAugment(transforms.AutoAugmentPolicy.CIFAR10))
+        train_trans.append(transforms.RandomResizedCrop(32, scale=(0.08,1.0), ratio=(0.75, 1.3333333333333333))) 
         train_trans.append(transforms.RandomHorizontalFlip()) 
+        train_trans.append(transforms.RandomGrayscale())
+    train_trans.append(transforms.ToTensor())
+    test_trans.append(transforms.ToTensor())
     if config["data_normalize"]: 
         train_trans.append(transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))) 
         test_trans.append(transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))) 
