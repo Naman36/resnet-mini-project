@@ -30,7 +30,7 @@ Training can be started with the following command
 ```
 python3 main.py  
 ```
-To modify and test with new ResNet architectures, you can create a new configuration experiment in project_model.py directly.
+To modify and test with new ResNet architectures, you can create a new configuration experiment in project1_model.py directly.
 
 # Reproduce the results 
 
