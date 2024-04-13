@@ -6,12 +6,7 @@
 This repository is inspired by [Efficient Resnets](https://github.com/Nikunj-Gupta/Efficient_ResNets)
 
 # Introduction 
-ResNets (or Residual Networks) are one of the most commonly used models for image classification
-5 tasks. In this project, you will design and train your own ResNet model for CIFAR-10 image
-6 classification. In particular, your goal will be to maximize accuracy on the CIFAR-10 benchmark
-7 while keeping the size of your ResNet model under budget. Model size, typically measured as the
-8 number or trainable parameters, is important when models need to be stored on devices with limited
-9 storage capacity, mobile devices for example. 
+ResNets (or Residual Networks) are one of the most commonly used models for image classification tasks. In this project, you will design and train your own ResNet model for CIFAR-10 image classification. In particular, your goal will be to maximize accuracy on the CIFAR-10 benchmark while keeping the size of your ResNet model under budget. Model size, typically measured as the number or trainable parameters, is important when models need to be stored on devices with limited storage capacity, mobile devices for example. 
 
 ## Prerequisites
 - Python 3.6+
