@@ -33,7 +33,7 @@ python3 main.py  --config config.yaml --resnet_architecture best_model
 To modify and test with new ResNet architectures, you can create a new configuration experiment in project1_model.py directly.
 
 # Testing
-To test the unseen data run the following command after loading you checkpoint in the best_model folder:
+To test the unseen data run the following command after loading the checkpoint in the best_model folder:
 ```
 python3 test.py 
 ```
