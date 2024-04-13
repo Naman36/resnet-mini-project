@@ -48,7 +48,7 @@ python3 main.py
 # Testing
 To test the unseen data run the following command after loading you checkpoint in the best_model folder:
 ```
-python3 testing.py 
+python3 test.py 
 ```
 The output will be saved as predicitions.csv in the predictions folder.
 
